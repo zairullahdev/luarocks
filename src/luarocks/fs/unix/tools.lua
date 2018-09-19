@@ -310,4 +310,18 @@ function tools.make_temp_dir(name_pattern)
    return nil, "Failed to create temporary directory "..tostring(dirname)
 end
 
+function tools.current_user()
+   local user = os.getenv("USER")
+   if user then
+      return user
+   end
+   local pd = io.popen("whoami", "r")
+   if not pd then
+      return ""
+   end
+   user = pd:read("*l")
+   pd:close()
+   return user
+end
+
 return tools
