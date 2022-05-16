@@ -2,7 +2,7 @@
 
 # Defaults
 
-prefix="/usr/local"
+prefix="/data/data/com.termux/files/usr"
 sysconfdir="$prefix/etc"
 rocks_tree="$prefix"
 
