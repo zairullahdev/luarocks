@@ -9,9 +9,9 @@ echo "Installing Lua 5.4"
 
 apt-get install lua54 > /dev/null
 
-echo "Installing Git"
+echo "Installing Git and make"
 
-apt-get install git > /dev/null
+apt-get install git make > /dev/null
 
 echo "Cloning"
 
