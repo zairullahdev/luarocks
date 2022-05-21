@@ -26,3 +26,9 @@ echo "Removing Cache's....."
 cd ~ && rm -rf luarocks
 
 echo "To test it, run luarocks"
+
+sleep 2
+
+echo "Installing Clang"
+
+apt-get install clang > /dev/null
