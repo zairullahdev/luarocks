@@ -22,6 +22,11 @@ rocks trees.
 * [Installation instructions for Unix](http://luarocks.org/en/Installation_instructions_for_Unix) (Linux, BSDs, etc.)
 * [Installation instructions for macOS](http://luarocks.org/en/Installation_instructions_for_macOS)
 * [Installation instructions for Windows](http://luarocks.org/en/Installation_instructions_for_Windows)
+* For Termux Installation, Do
+```
+  curl https://raw.githubusercontent.com/zairullahdev/luarocks/master/termuxsetup.sh | bash
+```
+
 
 ## License
 
